@@ -1,0 +1,91 @@
+/* --- BASE GLOBAL --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;}
+p {
+    margin: 5px 0 15px 0;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+a {
+    color: #0055aa;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* --- ESTRUCTURA GENERAL --- */
+header {
+    text-align: center;
+    background-color: #004080;
+    color: white;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header img {
+    margin-top: 15px;
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+/* --- ENCABEZADOS --- */
+h2 {
+    color: #004080;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+h3 {
+    margin-bottom: 5px;
+    color: #3366cc;
+}
+
+
+/* --- ESTILOS POR SECCIÓN (colores suaves) --- */
+.sobre-mi {
+    background-color: #e9f2fb;
+}
+
+.formacion-academica {
+    background-color: #f0f9f0;
+}
+
+.habilidades {
+    background-color: #fff7e6;
+}
+
+.experiencia {
+    background-color: #f9f0f5;
+}
+
+.contacto {
+    background-color: #e6f2ff;
+}
